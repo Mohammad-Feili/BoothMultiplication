@@ -1,0 +1,67 @@
+`timescale 1ns/1ns
+module boothMul(Muler,Mulcand,Out);
+  input wire[15:0] Muler,Mulcand;
+  output reg[31:0] Out;
+  
+  reg[15:0] M;
+  reg[15:0] A;
+  reg[4:0] count;
+  reg Q_1;
+  //reg [15:0] mulerB;
+  initial
+  begin
+    
+    count=5'b00000;
+    M=16'h000f;
+    Q_1=1'b0;
+    A=16'h0000;
+    
+  end
+  
+  always @(count)
+  begin
+    $display("time=%d,A=%b,M=%b,Q_1=%b,mulcand=%b",$time,A,M,Q_1,Mulcand);
+    
+    if (count==16)begin
+      Out<={A,M};
+      //$stop;
+    end
+      
+    case({M[0],Q_1})
+      
+      2'b01:
+      begin
+          A=A+Mulcand;
+          {A,M,Q_1} = $signed({A,M,Q_1}) >>> 1;
+      end
+        
+      2'b10:
+      begin
+          A=A+~Mulcand+16'h0001;
+          {A,M,Q_1} = $signed({A,M,Q_1}) >>> 1;
+        end
+          
+      2'b00:
+          {A,M,Q_1} = $signed({A,M,Q_1}) >>> 1;
+        
+      2'b11:
+          {A,M,Q_1} = $signed({A,M,Q_1}) >>> 1;
+        
+    endcase
+    
+  end
+  always @(count)
+  begin
+    
+    while(count<16)
+    begin
+      
+      #1
+      count=count+1;
+      
+    end
+  end
+endmodule   
+
+
+

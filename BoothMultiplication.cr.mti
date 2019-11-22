@@ -1,0 +1,15 @@
+{C:/Users/mohammad feili/Documents/Modelsim/Projects/BoothMultiplication/tbBoothMul.v} {1 {vlog -work work {C:/Users/mohammad feili/Documents/Modelsim/Projects/BoothMultiplication/tbBoothMul.v}
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module testbench
+
+Top level modules:
+	testbench
+
+} {} {}} {C:/Users/mohammad feili/Documents/Modelsim/Projects/BoothMultiplication/boothMul.v} {1 {vlog -work work {C:/Users/mohammad feili/Documents/Modelsim/Projects/BoothMultiplication/boothMul.v}
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module boothMul
+
+Top level modules:
+	boothMul
+
+} {} {}}

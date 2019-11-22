@@ -1,0 +1,44 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\mohammad feili\Documents\Modelsim\Projects\BoothAlgorithm
+vboothMul
+Z1 I14`:iX3ff5Tgd>0f8g:;42
+Z2 V^bWAOO>UV099WX1HbHhdj0
+Z3 dC:\Users\mohammad feili\Documents\Modelsim\Projects\BoothMultiplication
+Z4 w1546987630
+Z5 8C:/Users/mohammad feili/Documents/Modelsim/Projects/BoothMultiplication/boothMul.v
+Z6 FC:/Users/mohammad feili/Documents/Modelsim/Projects/BoothMultiplication/boothMul.v
+L0 2
+Z7 OV;L;10.1d;51
+r1
+31
+Z8 !s90 -reportprogress|300|-work|work|C:/Users/mohammad feili/Documents/Modelsim/Projects/BoothMultiplication/boothMul.v|
+Z9 o-work work -O0
+Z10 nbooth@mul
+!i10b 1
+Z11 !s100 XiTzi`GaN1Sa_jO[<i_e=3
+!s85 0
+Z12 !s108 1546987631.200000
+Z13 !s107 C:/Users/mohammad feili/Documents/Modelsim/Projects/BoothMultiplication/boothMul.v|
+!s101 -O0
+vtestbench
+!i10b 1
+Z14 !s100 7EY0T9B0:5cBg?9gjXGA^3
+Z15 IKb>gG4L`X7`E8PWNLE]LU2
+Z16 VhGfW:390DM[oDMzegDH9`2
+R3
+Z17 w1546987495
+Z18 8C:/Users/mohammad feili/Documents/Modelsim/Projects/BoothMultiplication/tbBoothMul.v
+Z19 FC:/Users/mohammad feili/Documents/Modelsim/Projects/BoothMultiplication/tbBoothMul.v
+L0 2
+R7
+r1
+!s85 0
+31
+!s108 1546987631.469000
+!s107 C:/Users/mohammad feili/Documents/Modelsim/Projects/BoothMultiplication/tbBoothMul.v|
+Z20 !s90 -reportprogress|300|-work|work|C:/Users/mohammad feili/Documents/Modelsim/Projects/BoothMultiplication/tbBoothMul.v|
+!s101 -O0
+R9
